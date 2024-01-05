@@ -1,0 +1,35 @@
+.accordian{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #000;
+}
+
+.accordian-item{
+    margin-bottom: 15px;
+    /* margin-top: 30px; */
+}
+
+.accordian-title{
+    cursor: pointer;
+    background-color: rgb(62, 61, 61);
+    color: #fff;
+    padding: 25px;
+    transition: background 1s;                 
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.accordian-title:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+.accordian-content{
+    background-color: rgb(105, 105, 105);
+    padding: 15px;
+    display: none;
+}
+
+.accordian-item.active .accordian-content{
+    display: block;
+}
